@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe de Amor | Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cloud-bg">
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-animated">Cafe de Amor</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li class="dropdown">
+                    <a href="#menu" class="dropbtn">Menümüz ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#kahveler">Özel Kahveler</a></li>
+                        <li><a href="#tatlilar">Tatlılar</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Hikayemiz</a></li>
+                <li><a href="#contact">Rezervasyon</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="slider-container">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <div class="slides">
+                    <div class="slide s1">
+                        <div class="slide-text">Aşkla Kavrulan Kahve Çekirdekleri</div>
+                    </div>
+                    <div class="slide s2">
+                        <div class="slide-text">Günlük Taze Fransız Kruvasanları</div>
+                    </div>
+                    <div class="slide s3">
+                        <div class="slide-text">Sıcak ve Huzurlu Bir Atmosfer</div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </section>
+
+        <section class="parallax-section">
+            <h2>Her Yudumda Aşk Var</h2>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2 class="section-title">Öne Çıkan Lezzetler</h2>
+            <div class="card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="img-box">
+                                <img src="assets/images/kahve.jpg" alt="Amor Latte">
+                            </div>
+                            <h3>Amor Latte</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Amor Latte</h3>
+                            <p>Özel espresso çekirdekleri ve kadifemsi süt köpüğü.</p>
+                            <span class="price">120 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="img-box">
+                                <img src="assets/images/tatli.jpg" alt="Çikolatalı Sufle">
+                            </div>
+                            <h3>Çikolatalı Sufle</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Çikolatalı Sufle</h3>
+                            <p>Akışkan Belçika çikolatası ve yanında vanilyalı dondurma.</p>
+                            <span class="price">150 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item-card">
+                    <div class="overlay-container">
+                        <img src="assets/images/kruvasan.jpg" alt="Kruvasan">
+                        <div class="overlay-text">
+                            <h3>Taze Kruvasan</h3>
+                            <p>Her sabah fırından yeni çıkmış çıtır lezzet.</p>
+                        </div>
+                    </div>
+                    <h3>Tereyağlı Kruvasan</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="glass-form-box">
+                <h2>Masa Rezervasyonu</h2>
+                <form>
+                    <input type="text" placeholder="Adınız Soyadınız" required>
+                    <input type="email" placeholder="E-posta Adresiniz" required>
+                    <input type="tel" placeholder="Telefon Numaranız" required>
+                    <input type="number" placeholder="Kişi Sayısı" min="1" max="10" required>
+                    <button type="submit">Yer Ayırt</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cafe de Amor - Tüm Hakları Saklıdır. | Web Editörü Final Projesi</p>
+    </footer>
+
+</body>
+</html>
